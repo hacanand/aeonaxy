@@ -7,7 +7,7 @@ const NavigationBar = () => {
     <nav className="bg-white h-full w-full">
       <div className="flex items-center justify-between">
         <div className="font-bold text-xl p-4 flex space-x-8 ">
-          <FaPaypal className="size-8" />
+          <FaPaypal className="size-8 text-blue-600" />
           <div className="space-x-8 font-bold text-blue-900">
             <a href="#" className=" hover:underline">
               Personal

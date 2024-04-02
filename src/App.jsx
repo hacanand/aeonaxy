@@ -12,6 +12,8 @@ import PaypalVideoCard from "./components/PaypalVideoCard";
 import PaypalCMO from "./components/PaypalCMO";
 import PaypalIntegration from "./components/PaypalIntegration";
 import PaypalContact from "./components/PaypalContact";
+import PaypalQuotes from "./components/PaypalQuotes";
+import PaypalFooter from "./components/PaypalFooter";
 
 function App() {
   return (
@@ -59,7 +61,11 @@ function App() {
         <PaypalIntegration />
       </div>
       <div className="mt-20">
-         <PaypalContact/>
+        <PaypalContact />
+      </div>
+      <div className="flex mx-10 flex-col gap-8">
+        <PaypalQuotes />
+        <PaypalFooter/>
       </div>
     </div>
   );
