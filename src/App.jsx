@@ -11,6 +11,7 @@ import PaypalModularSol from "./components/PaypalModularSol";
 import PaypalVideoCard from "./components/PaypalVideoCard";
 import PaypalCMO from "./components/PaypalCMO";
 import PaypalIntegration from "./components/PaypalIntegration";
+import PaypalContact from "./components/PaypalContact";
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
       <div className="mt-20">
         <PaypalMangeRisk />
       </div>
-      <div className="mx-10 p-2  flex flex-col gap-8">
+      <div className="mx-10 p-2 flex flex-col gap-8">
         <WhyPaypal />
         <div className=" flex font-semibold text-blue-600 text-wrap">
           About Fraud Protection
@@ -52,11 +53,14 @@ function App() {
         <PaypalVideoCard />
       </div>
       <div className="mt-20">
-        <PaypalCMO/>
+        <PaypalCMO />
       </div>
-      <dir className='flex flex-col gap-8'>
-      <PaypalIntegration/>
-      </dir>
+      <div className="flex mx-10 flex-col gap-8">
+        <PaypalIntegration />
+      </div>
+      <div className="mt-20">
+         <PaypalContact/>
+      </div>
     </div>
   );
 }
