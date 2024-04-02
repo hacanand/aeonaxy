@@ -49,7 +49,7 @@ function App() {
       <div className="mt-20">
         <PaypalModularSol />
       </div>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col mt-48 gap-8">
         <PaypalVideoCard />
       </div>
       <div className="mt-20">
