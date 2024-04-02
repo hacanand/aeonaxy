@@ -1,12 +1,16 @@
-
-import NavigationBar from './components/NavigationBar'
-import Hero from './components/Hero'
-import PaypalStats from './components/PaypalStats'
-import PaypalPayMethods from './components/PaypalPayMethods';
-import WhyPaypal from './components/WhyPaypal';
-import PaypalApprovalCard from './components/PaypalApprovalCard';
-import PaypalOrchestration from './components/PaypalOrchestration';
-import PaypalMangeRisk from './components/PaypalMangeRisk';
+import NavigationBar from "./components/NavigationBar";
+import Hero from "./components/Hero";
+import PaypalStats from "./components/PaypalStats";
+import PaypalPayMethods from "./components/PaypalPayMethods";
+import WhyPaypal from "./components/WhyPaypal";
+import PaypalApprovalCard from "./components/PaypalApprovalCard";
+import PaypalOrchestration from "./components/PaypalOrchestration";
+import PaypalMangeRisk from "./components/PaypalMangeRisk";
+import { FaArrowRight } from "react-icons/fa";
+import PaypalModularSol from "./components/PaypalModularSol";
+import PaypalVideoCard from "./components/PaypalVideoCard";
+import PaypalCMO from "./components/PaypalCMO";
+import PaypalIntegration from "./components/PaypalIntegration";
 
 function App() {
   return (
@@ -32,8 +36,29 @@ function App() {
       <div className="mt-20">
         <PaypalMangeRisk />
       </div>
+      <div className="mx-10 p-2  flex flex-col gap-8">
+        <WhyPaypal />
+        <div className=" flex font-semibold text-blue-600 text-wrap">
+          About Fraud Protection
+          <div className="m-1">
+            <FaArrowRight />
+          </div>
+        </div>
+      </div>
+      <div className="mt-20">
+        <PaypalModularSol />
+      </div>
+      <div className="flex flex-col gap-8">
+        <PaypalVideoCard />
+      </div>
+      <div className="mt-20">
+        <PaypalCMO/>
+      </div>
+      <dir className='flex flex-col gap-8'>
+      <PaypalIntegration/>
+      </dir>
     </div>
   );
 }
 
-export default App
+export default App;
