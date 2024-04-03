@@ -13,7 +13,7 @@ import { FaAmazonPay } from "react-icons/fa";
 
 function PaypalPayMethods() {
   return (
-    <div className="w-full h-full mt-48">
+    <div className="w-full h-full mt-48 max-md:mt-20">
       <div className="flex gap-6 text-gray-700 max-md:flex-wrap ">
         <div className="flex flex-col md:w-1/2">
           <div className="font-semibold md:text-6xl max-md:text-4xl text-balance  max-md:text-center">
