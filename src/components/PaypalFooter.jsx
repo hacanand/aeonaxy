@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaPaypal } from "react-icons/fa";
 import { LiaFlagUsaSolid } from "react-icons/lia";
-import { FaRegCopyright } from "react-icons/fa6";
+ 
 function PaypalFooter() {
   return (
     <div className="h-full w-full mt-10 py-8">
@@ -12,8 +12,8 @@ function PaypalFooter() {
           <span className="text-5xl font-bold text-blue-700">Pal</span>
         </div>
         <div>
-          <div className="flex justify-between flex-wrap">
-            <div className="flex gap-6 text-blue-950 font-bold text-xl   flex-wrap">
+          <div className="flex justify-between max-md:justify-center flex-wrap gap-6">
+            <div className="flex gap-6 text-blue-950 font-bold text-xl flex-wrap">
               <a href="#" className="hover:underline">
                 Help
               </a>
@@ -42,7 +42,7 @@ function PaypalFooter() {
                 Feedback
               </a>
             </div>
-            <div className="flex gap-3">
+            <div className="flex">
               <a
                 href="#"
                 className="hover:underline font-bold text-3xl text-red-500"
@@ -54,7 +54,7 @@ function PaypalFooter() {
         </div>
       </div>
       <hr className="h-px my-8 bg-gray-600 border-0" />
-      <div className="flex justify-between flex-wrap">
+      <div className="flex justify-between flex-wrap gap-6">
         <div className="flex gap-6 text-blue-950 font-bold text-xl flex-wrap">
           <a href="#" className="hover:underline">
             About
@@ -75,12 +75,9 @@ function PaypalFooter() {
             Sitemap
           </a>
         </div>
-        <div className="flex gap-3 ">
-          <a
-            href="#"
-            className="hover:underline "
-          >
-            <FaRegCopyright className='inline '/>1999-2022
+        <div className="flex gap-3 flex-wrap  ">
+          <a href="#" className="hover:underline ">
+            <span className="text-nowrap"> ©1999-2022</span>
           </a>
           <div className="flex flex-wrap gap-6 text-blue-950 font-bold text-xl">
             <a href="#" className="hover:underline">

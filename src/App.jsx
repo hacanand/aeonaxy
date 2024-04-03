@@ -24,7 +24,7 @@ function App() {
       <div className=" bg-zinc-200 shadow h-[1px]"></div>
       <div className="mx-10 p-2 flex flex-col gap-8">
         <Hero />
-        {/* <PaypalStats /> */}
+        <PaypalStats />
         <PaypalPayMethods />
         <WhyPaypal />
       </div>
@@ -49,9 +49,9 @@ function App() {
         </div>
       </div>
       <div className="mt-20">
-        {/* <PaypalModularSol /> */}
+        <PaypalModularSol />
       </div>
-      <div className="flex flex-col mt-48 gap-8">
+      <div className="flex flex-col ">
         <PaypalVideoCard />
       </div>
       <div className="mt-20">

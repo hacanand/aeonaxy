@@ -6,10 +6,10 @@ function PaypalMangeRisk() {
   return (
     <div className="h-full w-full bg-gray-200 p-6">
       <div className="flex max-md:flex-col ">
-        <div className="p-10 px-12 w-1/2">
+        <div className="p-10 px-12 md:w-1/2">
           <img src={img2} alt="img2" className="rounded-xl" />
         </div>
-        <div className="flex flex-col justify-center w-1/2 pr-4">
+        <div className="flex flex-col justify-center md:w-1/2 p-6">
           <div className="text-2xl font-semibold">
             Manage risk and compliance
           </div>

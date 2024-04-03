@@ -1,15 +1,15 @@
 import React from "react";
 import img2 from "../assets/img2.jpg";
-import { FaArrowRight, FaPlayCircle } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 function PaypalVideoCard() {
   return (
-    <div className="h-full w-full ">
-      <div className="flex ">
-        <div className="p-10 px-12 w-2/3 relative">
+    <div className="h-full w-full mt-48 max-md:mt-20">
+      <div className="flex max-md:flex-col">
+        <div className="md:p-10 px-12 md:w-2/3 relative">
           <img src={img2} alt="img2" className="rounded-xl" />
         </div>
-        <div className="flex flex-col justify-center w-1/2 pr-4">
+        <div className="flex flex-col max-md:p-10 justify-center md:w-1/2 pr-4">
           <div className="text-2xl font-semibold">
             Your partner for innovation
           </div>
