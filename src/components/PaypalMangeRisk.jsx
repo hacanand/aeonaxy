@@ -10,7 +10,7 @@ function PaypalMangeRisk() {
           <img src={img2} alt="img2" className="rounded-xl" />
         </div>
         <div className="flex flex-col justify-center md:w-1/2 p-6">
-          <div className="text-2xl font-semibold text-gray-800">
+          <div className="text-2xl font-bold text-gray-800">
             Manage risk and compliance
           </div>
           <div className="text-wrap font-semibold mt-4 text-gray-600">
