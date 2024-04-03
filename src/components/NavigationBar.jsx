@@ -12,12 +12,12 @@ const NavigationBar = () => {
       <nav class="bg-white border-gray-200 ">
         <div class="flex  justify-between flex-wrap">
           <FaPaypal className="size-10 text-blue-900" />
-          <div class="flex items-center lg:order-2 space-x-4 font-semibold">
-            <button className="bg-white text-blue-00 max-md:px-2 px-4 py-2 rounded-full ring ring-blue-900 hover:bg-blue-100">
+          <div class="flex items-center lg:order-2 space-x-4 max-md:space-x-2 font-semibold">
+            <button className="bg-white text-blue-00  max-md:px-2 max-sm:px-1 px-4 py-2 rounded-full ring ring-blue-900 hover:bg-blue-100">
               Log In
             </button>
 
-            <button className="bg-blue-900 text-white px-4 py-2 max-md:px-2 rounded-full hover:bg-blue-800">
+            <button className="bg-blue-900 text-white px-4 py-2 max-sm:px-1 max-md:px-2 rounded-full hover:bg-blue-800">
               Sign Up
             </button>
             <button

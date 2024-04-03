@@ -10,7 +10,7 @@ function Hero() {
         <span className="text-5xl max-md:text-2xl font-medium">
           Global Payment
         </span>
-        <span className="text-5xl max-md:text-2xl font-medium">
+        <span className="text-5xl max-md:text-2xl text-center font-medium">
           processing solutions
         </span>
         <div className="flex flex-col text-balance text-center">

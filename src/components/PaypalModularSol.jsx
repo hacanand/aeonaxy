@@ -4,7 +4,7 @@ import { TiTick } from "react-icons/ti";
 
 function PaypalModularSol() {
   return (
-    <div className="w-full h-full bg-blue-950 md:py-20">
+    <div className="w-full h-full bg-blue-950 md:py-20 ">
       <div className=" flex max-md:justify-center flex-wrap py-10  gap-10 relative">
         <div className="flex md:mx-8 max-md:mx-10 md:p-2 flex-col md:w-4/12 text-white gap-8 py-8 justify-center">
           <div className="font-medium text-4xl max-md:text-center text-gray-100">
@@ -21,14 +21,14 @@ function PaypalModularSol() {
             </div>
           </div>
         </div>
-        <div className="md:w-6/12  ">
-          <div class=" md:relative ">
-            <table class="w-full shadow-xl rounded-md  md:absolute  md:p-6 text-sm text-left text-gray-800  ">
+        <div className="md:w-6/12">
+          <div class=" md:relative  ">
+            <table class="w-full shadow-xl table-auto  rounded-md md:absolute   md:p-6 text-sm text-left text-gray-800  ">
               <tbody className="">
-                <tr class="bg-white border-b border-gray-300 ">
+                <tr class="bg-white  border-b border-gray-300 ">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-bold text-xl  whitespace-nowrap text-gray-700"
+                    class="px-6 py-4  font-bold text-xl  whitespace-nowrap text-gray-700"
                   >
                     Accept payments
                   </th>
@@ -78,7 +78,7 @@ function PaypalModularSol() {
                     scope="row"
                     class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
-                    Reporting and analytics
+                    Reporting 
                   </th>
 
                   <td class="px-6 py-4">
@@ -90,7 +90,7 @@ function PaypalModularSol() {
                     scope="row"
                     class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
-                    Compliance and security
+                    Compliance 
                   </th>
 
                   <td class="px-6 py-4">

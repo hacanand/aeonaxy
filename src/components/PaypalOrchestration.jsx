@@ -6,7 +6,7 @@ function PaypalOrchestration() {
     <div className="h-full w-full mt-48 max-md:mt-20">
       <div className="flex max-md:flex-col">
         <div className="flex flex-col justify-center md:w-1/2 md:pr-4">
-          <div className="text-2xl font-semibold text-gray-800">Orchestration made simple</div>
+          <div className="text-2xl font-bold text-gray-800">Orchestration made simple</div>
           <div className="text-wrap font-semibold mt-4 text-gray-600">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque eos
             omnis ipsam voluptas, repudiandae reiciendis culpa quae delectus
