@@ -36,8 +36,8 @@ function PaypalPayMethods() {
             </div>
           </div>
         </div>
-        <div className="bg-gray-100 p-6 md:w-1/2 rounded-xl">
-          <div className=" flex flex-wrap gap-8 justify-center">
+        <div className="bg-gray-100 md:p-6 max-md:p-1 md:w-1/2 rounded-xl">
+          <div className=" flex flex-wrap md:gap-8  max-md:gap-4 justify-center ">
             <FaCcAmex className="text-6xl" />
             <FaCcVisa className="text-6xl" />
             <FaCcMastercard className="text-6xl" />
@@ -47,6 +47,17 @@ function PaypalPayMethods() {
             <FaApplePay className="text-6xl" />
             <SiSamsungpay className="text-6xl" />
             <FaAmazonPay className="text-6xl" />
+            <FaCcAmex className="text-6xl" />
+            <FaCcVisa className="text-6xl" />
+            <FaCcMastercard className="text-6xl" />
+            <FaCcDiscover className="text-6xl" />
+            <FaCcPaypal className="text-6xl" />
+            <FaGooglePay className="text-6xl" />
+            <FaApplePay className="text-6xl" />
+            <SiSamsungpay className="text-6xl" />
+            <FaAmazonPay className="text-6xl" />
+            <FaCcAmex className="text-6xl" />
+            <FaCcVisa className="text-6xl" />
           </div>
         </div>
       </div>
