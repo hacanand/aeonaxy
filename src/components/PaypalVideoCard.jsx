@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function PaypalVideoCard() {
   return (
-    <div className="h-full w-full mt-48 max-md:mt-20">
+    <div className="h-full w-full mt-64 max-md:mt-20">
       <div className="flex max-md:flex-col">
         <div className="md:p-10 px-12 md:w-2/3 relative">
           <img src={img2} alt="img2" className="rounded-xl" />

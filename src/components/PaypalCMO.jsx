@@ -3,7 +3,7 @@ import {  FaQuoteLeft } from "react-icons/fa";
 import img2 from "../assets/img2.jpg";
 function PaypalCMO() {
   return (
-    <div className="w-full h-full bg-blue-950  flex relative ">
+    <div className="w-full h-full bg-blue-950 mt-48 max-md:20 flex relative ">
       <div className="mx-10 py-20 p-2 flex max-md:flex-col gap-6 ">
         <div className=" text-gray-200 flex flex-col md:w-1/3  gap-8 justify-center">
           <div className="font-medium text-4xl text-gray-100">

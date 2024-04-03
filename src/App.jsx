@@ -63,7 +63,7 @@ function App() {
       <div className="mt-20 ">
         <PaypalContact />
       </div>
-      <div className="flex mx-8 flex-col gap-8">
+      <div className="flex mx-8  flex-col gap-8">
         <PaypalQuotes />
         <PaypalFooter/>
       </div>
