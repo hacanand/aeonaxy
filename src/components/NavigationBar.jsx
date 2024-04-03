@@ -11,7 +11,7 @@ const NavigationBar = () => {
     <header>
       <nav class="bg-white border-gray-200 ">
         <div class="flex  justify-between flex-wrap">
-          <FaPaypal className="size-10 text-blue-600" />
+          <FaPaypal className="size-10 text-blue-900" />
           <div class="flex items-center lg:order-2 space-x-4 font-semibold">
             <button className="bg-white text-blue-00 max-md:px-2 px-4 py-2 rounded-full ring ring-blue-900 hover:bg-blue-100">
               Log In
@@ -62,7 +62,7 @@ const NavigationBar = () => {
               <li>
                 <a
                   href="#"
-                  class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                  class="block py-2 pr-4 pl-3 text-white rounded bg-primary-600 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                   aria-current="page"
                 >
                   Personal

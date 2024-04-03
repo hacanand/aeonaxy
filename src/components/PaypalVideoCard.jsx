@@ -10,10 +10,10 @@ function PaypalVideoCard() {
           <img src={img2} alt="img2" className="rounded-xl" />
         </div>
         <div className="flex flex-col max-md:p-10 justify-center md:w-1/2 pr-4">
-          <div className="text-2xl font-semibold">
+          <div className="text-2xl font-semibold text-gray-800">
             Your partner for innovation
           </div>
-          <div className="text-wrap font-semibold mt-4">
+          <div className="text-wrap font-semibold mt-4 text-gray-600">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque eos
             omnis ipsam voluptas, repudiandae reiciendis culpa quae delectus
             debitis minus modi itaque consequatur nobis libero! Sunt debitis

@@ -8,7 +8,7 @@ function WhyPaypal() {
           <div className="font-bold text-2xl text-gray-800">
             Enable multiple commerce scenarios
           </div>
-          <div className="font-semibold">
+          <div className="font-semibold text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
             sapiente aspernatur ut voluptatibus totam beatae sequi magni
             architecto nesciunt vero distinctio,
@@ -18,7 +18,7 @@ function WhyPaypal() {
           <div className="font-bold text-2xl text-gray-800">
             Enable multiple commerce scenarios
           </div>
-          <div className="font-semibold">
+          <div className="font-semibold text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
             sapiente aspernatur ut voluptatibus totam beatae sequi magni
             architecto nesciunt vero distinctio,
@@ -28,7 +28,7 @@ function WhyPaypal() {
           <div className="font-bold text-2xl text-gray-800">
             Enable multiple commerce scenarios
           </div>
-          <div className="font-semibold">
+          <div className="font-semibold text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
             sapiente aspernatur ut voluptatibus totam beatae sequi magni
             architecto nesciunt vero distinctio,
@@ -38,7 +38,7 @@ function WhyPaypal() {
           <div className="font-bold text-2xl text-gray-800">
             Enable multiple commerce scenarios
           </div>
-          <div className="font-semibold">
+          <div className="font-semibold text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
             sapiente aspernatur ut voluptatibus totam beatae sequi magni
             architecto nesciunt vero distinctio,

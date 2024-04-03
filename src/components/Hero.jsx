@@ -24,7 +24,7 @@ function Hero() {
           Connect with a Payments Expert
         </button>
       </div>
-      <div className="mt-16 bg-gray-300 p-4 rounded-xl">
+      <div className="mt-16 bg-gray-100 max-md:p-4 rounded-xl">
         <div class="mt-3  flex -space-x-2 relative flex-wrap max-md:gap-4 max-md:justify-center ">
           <img
             class="inline-block w-7/12  rounded-xl hover:scale-105 hover:z-10 transition duration-500 ease-in-out"

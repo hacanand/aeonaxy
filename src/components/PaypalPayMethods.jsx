@@ -14,12 +14,12 @@ import { FaAmazonPay } from "react-icons/fa";
 function PaypalPayMethods() {
   return (
     <div className="w-full h-full mt-48 max-md:mt-20">
-      <div className="flex gap-6 text-gray-700 max-md:flex-wrap ">
+      <div className="flex gap-6 text-gray-800 max-md:flex-wrap ">
         <div className="flex flex-col md:w-1/2">
-          <div className="font-semibold md:text-6xl max-md:text-4xl text-balance  max-md:text-center">
+          <div className="font-semibold md:text-6xl max-md:text-4xl   max-md:text-center">
             Offer a range of payment method worldwide
           </div>
-          <div className=" flex  flex-col md:text-3xl font-medium mt-6 text-wrap gap-4">
+          <div className=" flex text-gray-600 flex-col md:text-3xl font-medium mt-6 text-wrap gap-4">
             <div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
               architecto corrupti consequuntur harum voluptatem neque,
@@ -36,7 +36,7 @@ function PaypalPayMethods() {
             </div>
           </div>
         </div>
-        <div className="bg-gray-200 p-6 md:w-1/2 rounded-xl">
+        <div className="bg-gray-100 p-6 md:w-1/2 rounded-xl">
           <div className=" flex flex-wrap gap-8 justify-center">
             <FaCcAmex className="text-6xl" />
             <FaCcVisa className="text-6xl" />

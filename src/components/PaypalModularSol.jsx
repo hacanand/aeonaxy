@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
 
 function PaypalModularSol() {
@@ -7,25 +7,25 @@ function PaypalModularSol() {
     <div className="w-full h-full bg-blue-950 md:py-20">
       <div className=" flex max-md:justify-center flex-wrap py-10  gap-10 relative">
         <div className="flex md:mx-8 max-md:mx-10 md:p-2 flex-col md:w-4/12 text-white gap-8 py-8 justify-center">
-          <div className="font-medium text-4xl max-md:text-center">
+          <div className="font-medium text-4xl max-md:text-center text-gray-100">
             Our modular solution can grow with you
           </div>
-          <div className="">
+          <div className="text-gray-200">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
             numquam fugit tenetur recusandae aliquam nobis nostrum accusamus
           </div>
-          <div className="text-cyan-400 font-medium flex cursor-pointer">
+          <div className="text-blue-600 font-medium flex cursor-pointer">
             <div>Connect with a payments expert</div>
             <div className="m-1.5">
-              <FaLongArrowAltRight />
+              <FaArrowRight />
             </div>
           </div>
         </div>
         <div className="md:w-6/12  ">
           <div class=" md:relative ">
-            <table class="w-full shadow-xl rounded-md  md:absolute  md:p-6 text-sm text-left text-gray-700  ">
+            <table class="w-full shadow-xl rounded-md  md:absolute  md:p-6 text-sm text-left text-gray-800  ">
               <tbody className="">
-                <tr class="bg-white border-b border-gray-300">
+                <tr class="bg-white border-b border-gray-300 ">
                   <th
                     scope="row"
                     class="px-6 py-4 font-bold text-xl  whitespace-nowrap text-gray-700"
@@ -133,7 +133,6 @@ function PaypalModularSol() {
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>
-                
               </tbody>
             </table>
           </div>
