@@ -13,7 +13,7 @@ function PaypalFooter() {
         </div>
         <div>
           <div className="flex justify-between max-md:justify-center flex-wrap gap-6">
-            <div className="flex gap-6 text-blue-950 font-bold text-xl flex-wrap">
+            <div className="flex gap-6 text-blue-900 font-bold text-xl flex-wrap">
               <a href="#" className="hover:underline">
                 Help
               </a>
@@ -55,7 +55,7 @@ function PaypalFooter() {
       </div>
       <hr className="h-px my-8 bg-gray-600 border-0" />
       <div className="flex justify-between flex-wrap gap-6">
-        <div className="flex gap-6 text-blue-950 font-bold text-xl flex-wrap">
+        <div className="flex gap-6 text-blue-900 font-bold text-xl flex-wrap">
           <a href="#" className="hover:underline">
             About
           </a>
@@ -79,7 +79,7 @@ function PaypalFooter() {
           <a href="#" className="hover:underline ">
             <span className="text-nowrap"> ©1999-2022</span>
           </a>
-          <div className="flex flex-wrap gap-6 text-blue-950 font-bold text-xl">
+          <div className="flex flex-wrap gap-6 text-blue-900 font-bold text-xl">
             <a href="#" className="hover:underline">
               Legal
             </a>
