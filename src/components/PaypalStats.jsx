@@ -2,7 +2,7 @@ import React from 'react'
 
 function PaypalStats() {
   return (
-    <div className="w-full h-full mt-48 ">
+    <div className="w-full h-full mt-48 max-md:mt-20">
       <div className="flex flex-wrap justify-center max-md:flex-col max-md:justify-center gap-8">
         <div className="flex flex-col  md:w-1/2 gap-8">
           <div className=" text-9xl max-md:text-5xl font-bold text-blue-900 ">
