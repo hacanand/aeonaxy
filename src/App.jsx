@@ -60,7 +60,7 @@ function App() {
       <div className="flex mx-4 flex-col gap-8">
         <PaypalIntegration />
       </div>
-      <div className="mt-20">
+      <div className="mt-20 ">
         <PaypalContact />
       </div>
       <div className="flex mx-4 flex-col gap-8">
