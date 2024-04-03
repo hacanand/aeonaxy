@@ -22,16 +22,16 @@ function App() {
         <NavigationBar />
       </div>
       <div className=" bg-zinc-200 shadow h-[1px]"></div>
-      <div className="mx-10 p-2  flex flex-col gap-8">
+      <div className="mx-10 p-2 flex flex-col gap-8">
         <Hero />
-        <PaypalStats />
+        {/* <PaypalStats /> */}
         <PaypalPayMethods />
         <WhyPaypal />
       </div>
       <div className="mt-20">
         <PaypalApprovalCard />
       </div>
-      <div className="mx-10 p-2  flex flex-col gap-8">
+      <div className="mx-10 p-2 flex flex-col gap-8">
         <WhyPaypal />
         <PaypalOrchestration />
         <WhyPaypal />
@@ -49,7 +49,7 @@ function App() {
         </div>
       </div>
       <div className="mt-20">
-        <PaypalModularSol />
+        {/* <PaypalModularSol /> */}
       </div>
       <div className="flex flex-col mt-48 gap-8">
         <PaypalVideoCard />

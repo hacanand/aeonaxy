@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa";
 
 function PaypalMangeRisk() {
   return (
-    <div className="h-full w-full bg-gray-200">
-      <div className="flex ">
+    <div className="h-full w-full bg-gray-200 p-6">
+      <div className="flex max-md:flex-col ">
         <div className="p-10 px-12 w-1/2">
           <img src={img2} alt="img2" className="rounded-xl" />
         </div>

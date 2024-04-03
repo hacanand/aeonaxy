@@ -4,19 +4,24 @@ import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
 function Hero() {
-  return ( 
-    <div className="w-full h-full p-2 mt-10 ">
+  return (
+    <div className="w-full h-full p-2 mt-10 max-md:mt-5 ">
       <div className="flex flex-col  items-center justify-between">
-        <span className="text-5xl font-medium">Global Payment</span>
-        <span className="text-5xl font-medium"> processing solutions</span>
-        <div className="flex flex-col">
+        <span className="text-5xl max-md:text-2xl font-medium">
+          Global Payment
+        </span>
+        <span className="text-5xl max-md:text-2xl font-medium">
+          
+          processing solutions
+        </span>
+        <div className="flex flex-col text-balance text-center">
           <span className="font-medium mt-5">
             Grow optimise your business with a flexible,end-to-end payments
             platform
           </span>
           <span className="font-medium">powered by Braintree technology</span>
         </div>
-        <button className="bg-blue-900 mt-10  text-white px-4 p-3 rounded-full ">
+        <button className="bg-blue-900 md:mt-10  text-white px-4 max-md:mt-5  p-3 rounded-full ">
           Connect with a Payments Expert
         </button>
       </div>
@@ -37,7 +42,9 @@ function Hero() {
             <div className="flex justify-between p-2">
               <div className="text-gray-400  font-medium text-wrap text-xl">
                 Speckled bowl set
-                <div className="font-normal  text-wrap text-base">Set of two</div>
+                <div className="font-normal  text-wrap text-base">
+                  Set of two
+                </div>
               </div>
               <div className="text-gray-400  font-medium text-xl">$24.00</div>
             </div>
