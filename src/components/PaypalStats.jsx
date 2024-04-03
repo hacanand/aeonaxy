@@ -2,7 +2,7 @@ import React from 'react'
 
 function PaypalStats() {
   return (
-    <div className="mt-64 flex justify-evenly">
+    <div className="mt-64 flex justify-evenly flex-wrap">
       <div className="flex flex-col">
         <div className=" text-9xl font-bold text-blue-900 p-6">401%</div>
         <div className="font-medium text-balance p-4 w-96 text-3xl">
@@ -10,7 +10,8 @@ function PaypalStats() {
           enterprise payment solutions
         </div>
       </div>
-      <div className="bg-gray-200 h-96  w-[1px] "></div>
+      <vr className="w-px bg-gray-400 border-0" />
+      {/* <div className="bg-gray-200 h-96  w-[1px] "></div> */}
       <div className="flex flex-col">
         <div className=" text-5xl font-bold text-blue-900 p-4">30%</div>
         <div className="font-medium text-balance p-4 w-96 text-3xl">
@@ -19,7 +20,7 @@ function PaypalStats() {
         <div className="bg-gray-200 h-[1px] w-96 "></div>
         <div className=" text-5xl font-bold text-blue-900 p-4">4bps</div>
         <div className="font-medium text-balance p-4 w-96 text-3xl">
-           In the US,Lorem ipsum, dolor sit amet consectetur adipisicing  
+          In the US,Lorem ipsum, dolor sit amet consectetur adipisicing
         </div>
       </div>
     </div>

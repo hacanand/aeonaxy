@@ -12,8 +12,8 @@ function PaypalFooter() {
           <span className="text-5xl font-bold text-blue-700">Pal</span>
         </div>
         <div>
-          <div className="flex justify-between">
-            <div className="flex gap-6 text-blue-950 font-bold text-xl">
+          <div className="flex justify-between flex-wrap">
+            <div className="flex gap-6 text-blue-950 font-bold text-xl   flex-wrap">
               <a href="#" className="hover:underline">
                 Help
               </a>
@@ -53,9 +53,9 @@ function PaypalFooter() {
           </div>
         </div>
       </div>
-      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-      <div className="flex justify-between">
-        <div className="flex gap-6 text-blue-950 font-bold text-xl">
+      <hr className="h-px my-8 bg-gray-600 border-0" />
+      <div className="flex justify-between flex-wrap">
+        <div className="flex gap-6 text-blue-950 font-bold text-xl flex-wrap">
           <a href="#" className="hover:underline">
             About
           </a>
@@ -82,7 +82,7 @@ function PaypalFooter() {
           >
             <FaRegCopyright className='inline '/>1999-2022
           </a>
-          <div className="flex gap-6 text-blue-950 font-bold text-xl">
+          <div className="flex flex-wrap gap-6 text-blue-950 font-bold text-xl">
             <a href="#" className="hover:underline">
               Legal
             </a>

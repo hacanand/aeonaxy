@@ -3,8 +3,8 @@ import React from 'react'
 function WhyPaypal() {
   return (
     <div className="w-full h-full mt-48">
-      <div className="flex justify-between gap-10">
-        <div className="flex flex-col">
+      <div className="flex justify-between gap-10 max-md:flex-col">
+        <div className="flex flex-col ">
           <div className="font-bold text-2xl text-gray-800">
             Enable multiple commerce scenarios
           </div>

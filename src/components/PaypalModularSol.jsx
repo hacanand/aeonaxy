@@ -5,16 +5,15 @@ import { TiTick } from "react-icons/ti";
 function PaypalModularSol() {
   return (
     <div className="w-full h-full bg-blue-950 py-20">
-      <div className="mx-10 p-2 flex  gap-10 relative">
-        <div className="flex flex-col w-3/12 text-white gap-8 p-10  justify-center">
+      <div className="mx-10 p-2 flex flex-wrap py-10  gap-10 relative">
+        <div className="flex flex-col w-4/12 text-white gap-8 py-8 justify-center">
           <div className="font-medium text-4xl">
             Our modular solution can grow with you
           </div>
           <div className="">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
             numquam fugit tenetur recusandae aliquam nobis nostrum accusamus
-            mollitia id, molestiae nam necessitatibus magni veniam alias commodi
-            similique consequatur et maxime.
+            
           </div>
           <div className="text-cyan-400 font-medium flex cursor-pointer">
             <div>Connect with a payments expert</div>
@@ -23,10 +22,10 @@ function PaypalModularSol() {
             </div>
           </div>
         </div>
-        <div className="shadow-xl w-1/2 absolute right-16 bg-white rounded-xl p-6">
-          <div class="  p-6">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-700  ">
-              <tbody>
+        <div className=" w-7/12 ">
+          <div class=" relative ">
+            <table class="w-full shadow-xl rounded-md  md:absolute p-6 text-sm text-left   text-gray-700  ">
+              <tbody className="">
                 <tr class="bg-white border-b  border-gray-300">
                   <th
                     scope="row"

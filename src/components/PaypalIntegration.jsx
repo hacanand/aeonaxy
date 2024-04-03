@@ -5,7 +5,7 @@ function PaypalIntegration() {
   return (
     <div className="w-full h-full mt-20  ">
       <div className="flex flex-col gap-8">
-        <div className="flex gap-10">
+        <div className="flex gap-10 max-md:flex-wrap">
           <div className="flex flex-col gap-4 text-wrap p-4">
             <div className="font-bold text-xl">
               Executive Guide:Paypal enterprise integration
@@ -20,7 +20,8 @@ function PaypalIntegration() {
               Get the guide <FaArrowRight className="m-1" />
             </div>
           </div>
-          <div className="bg-gray-300 w-[2px] "></div>
+          <vr className="w-px bg-gray-400 border-0" />
+
           <div className="flex flex-col gap-4  text-wrap p-4">
             <div className="font-bold text-xl">
               Executive Guide:Paypal enterprise integration
@@ -36,7 +37,7 @@ function PaypalIntegration() {
             </div>
           </div>
         </div>
-        <div className="bg-gray-300 h-[2px] "></div>
+        <hr className="h-px bg-gray-400 border-0" />
         <div className="flex gap-8">
           <div className="w-1/3 ">
             <img src={img2} alt="img2" />
